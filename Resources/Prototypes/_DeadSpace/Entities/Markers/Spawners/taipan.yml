@@ -21,6 +21,7 @@
     description: job-description-taipan-atmospherics-engineer
     rules: ghost-role-information-taipan-personal-rules
     job: TaipanAtmosphericsEngineer
+    reregister: false
     requirements:
     - !type:RoleTimeRequirement
       role: JobAtmosphericTechnician
@@ -57,6 +58,7 @@
     description: job-description-taipan-botanist
     rules: ghost-role-information-taipan-personal-rules
     job: TaipanBotanist
+    reregister: false
     requirements:
     - !type:DepartmentTimeRequirement
       department: Civilian
@@ -90,6 +92,7 @@
     description: job-description-taipan-cargotech
     rules: ghost-role-information-taipan-personal-rules
     job: TaipanCargotech
+    reregister: false
     requirements:
     - !type:RoleTimeRequirement
       role: JobSalvageSpecialist
@@ -120,6 +123,7 @@
     description: job-description-taipan-chef
     rules: ghost-role-information-taipan-personal-rules
     job: TaipanChef
+    reregister: false
     requirements:
     - !type:DepartmentTimeRequirement
       department: Civilian
@@ -156,6 +160,7 @@
     description: job-description-taipan-communications-officer
     rules: ghost-role-information-taipan-personal-rules
     job: TaipanCommunicationsOfficer
+    reregister: false
     requirements:
     - !type:RoleTimeRequirement
       role: JobTaipanRecruit
@@ -189,6 +194,7 @@
     description: job-description-taipan-medic
     rules: ghost-role-information-taipan-personal-rules
     job: TaipanMedic
+    reregister: false
     requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
@@ -222,6 +228,7 @@
     description: job-description-taipan-paramedic
     rules: ghost-role-information-taipan-personal-rules
     job: TaipanParamedic
+    reregister: false
     requirements:
     - !type:RoleTimeRequirement
       role: JobTaipanMedic
@@ -252,6 +259,7 @@
     description: job-description-taipan-recruit
     rules: ghost-role-information-taipan-personal-rules
     job: TaipanRecruit
+    reregister: false
     requirements:
     - !type:DepartmentTimeRequirement
       department: Security
@@ -282,6 +290,7 @@
     description: job-description-taipan-research-director
     rules: ghost-role-information-taipan-personal-rules
     job: TaipanResearchDirector
+    reregister: false
     requirements:
     - !type:DepartmentTimeRequirement
       department: Taipan
@@ -318,6 +327,7 @@
     description: job-description-taipan-researcher
     rules: ghost-role-information-taipan-personal-rules
     job: TaipanResearcher
+    reregister: false
     requirements:
     - !type:DepartmentTimeRequirement
       department: Science
@@ -351,6 +361,7 @@
     description: job-description-taipan-technician
     rules: ghost-role-information-taipan-personal-rules
     job: TaipanTechnician
+    reregister: false
     requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
@@ -381,6 +392,7 @@
     description: job-description-taipan-technical-supervisor
     rules: ghost-role-information-taipan-personal-rules
     job: TaipanTechnicalOperationsSupervisor
+    reregister: false
     requirements:
     - !type:RoleTimeRequirement
       role: JobTaipanCargotech
